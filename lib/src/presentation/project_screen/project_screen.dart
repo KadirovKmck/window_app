@@ -101,7 +101,7 @@ class ProjectScreen extends StatelessWidget {
         Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) => const WindowSettingView(),
+              builder: (context) => const WindowView(),
             ));
       },
       child: Card(
