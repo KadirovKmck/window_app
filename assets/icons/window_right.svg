@@ -1,0 +1,23 @@
+<svg width="137" height="218" viewBox="0 0 137 218" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1.5" y="0.5" width="133.271" height="217" fill="#404A53" stroke="#A1A1A1"/>
+<rect x="17.5" y="16.5" width="103" height="186" stroke="#A1A1A1"/>
+<rect x="21.5" y="20.5" width="95" height="178" fill="#BDD7D6" stroke="#A1A1A1"/>
+<rect x="4" y="90" width="10" height="41" rx="1" fill="#A1A1A1"/>
+<rect x="11" y="113" width="5" height="24" rx="1" transform="rotate(-90 11 113)" fill="#A1A1A1"/>
+<path d="M1 217L22 198" stroke="#A1A1A1"/>
+<path d="M1 1L22 21" stroke="#A1A1A1"/>
+<path d="M134 1L117 21" stroke="#A1A1A1"/>
+<path d="M117 199L136 217" stroke="#A1A1A1"/>
+<path d="M54 128L94 88" stroke="black" stroke-linecap="round"/>
+<path d="M66 123L90 99" stroke="black" stroke-linecap="round"/>
+<path d="M59 116.5L83 92.5" stroke="black" stroke-linecap="round"/>
+<rect x="2.5" y="0.5" width="133" height="217" stroke="#A1A1A1"/>
+<rect x="134" y="36" width="3" height="8" fill="#A1A1A1"/>
+<rect x="134" y="101" width="3" height="8" fill="#A1A1A1"/>
+<rect x="134" y="167" width="3" height="8" fill="#A1A1A1"/>
+<rect x="134" y="46" width="3" height="8" fill="#A1A1A1"/>
+<rect x="134" y="111" width="3" height="8" fill="#A1A1A1"/>
+<rect x="134" y="177" width="3" height="8" fill="#A1A1A1"/>
+<path d="M8 131V143.5L135.5 176" stroke="#11B4E7"/>
+<path d="M8 90V77.5L135.5 45" stroke="#11B4E7"/>
+</svg>

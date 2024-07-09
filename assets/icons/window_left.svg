@@ -1,0 +1,23 @@
+<svg width="137" height="218" viewBox="0 0 137 218" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="135.5" y="217.5" width="133.271" height="217" transform="rotate(-180 135.5 217.5)" fill="#404A53" stroke="#A1A1A1"/>
+<rect x="119.5" y="201.5" width="103" height="186" transform="rotate(-180 119.5 201.5)" stroke="#A1A1A1"/>
+<rect x="115.5" y="197.5" width="95" height="178" transform="rotate(-180 115.5 197.5)" fill="#BDD7D6" stroke="#A1A1A1"/>
+<rect x="133" y="128" width="10" height="41" rx="1" transform="rotate(-180 133 128)" fill="#A1A1A1"/>
+<rect x="126" y="105" width="5" height="24" rx="1" transform="rotate(90 126 105)" fill="#A1A1A1"/>
+<path d="M136 1L115 20" stroke="#A1A1A1"/>
+<path d="M136 217L115 197" stroke="#A1A1A1"/>
+<path d="M3 217L20 197" stroke="#A1A1A1"/>
+<path d="M20 19L1 0.999999" stroke="#A1A1A1"/>
+<path d="M83 90L43 130" stroke="black" stroke-linecap="round"/>
+<path d="M71 95L47 119" stroke="black" stroke-linecap="round"/>
+<path d="M78 101.5L54 125.5" stroke="black" stroke-linecap="round"/>
+<rect x="134.5" y="217.5" width="133" height="217" transform="rotate(-180 134.5 217.5)" stroke="#A1A1A1"/>
+<rect x="3" y="182" width="3" height="8" transform="rotate(-180 3 182)" fill="#A1A1A1"/>
+<rect x="3" y="117" width="3" height="8" transform="rotate(-180 3 117)" fill="#A1A1A1"/>
+<rect x="3" y="51" width="3" height="8" transform="rotate(-180 3 51)" fill="#A1A1A1"/>
+<rect x="3" y="172" width="3" height="8" transform="rotate(-180 3 172)" fill="#A1A1A1"/>
+<rect x="3" y="107" width="3" height="8" transform="rotate(-180 3 107)" fill="#A1A1A1"/>
+<rect x="3" y="41" width="3" height="8" transform="rotate(-180 3 41)" fill="#A1A1A1"/>
+<path d="M129 87V74.5L1.5 42" stroke="#11B4E7"/>
+<path d="M129 128V140.5L1.5 173" stroke="#11B4E7"/>
+</svg>

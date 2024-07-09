@@ -31,7 +31,14 @@ class WindowView extends StatelessWidget {
             SizedBox(height: 18.h, child: const IconsGrid()),
             Divider(color: const Color(0xffe8e8e8), thickness: 0.2.h),
             SizedBox(height: 12.h),
-            const WindowDisplay(),
+            const Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                MeasurementColumn(),
+                WindowGraphic(),
+              ],
+            ),
           ],
         ),
       ),
@@ -58,71 +65,12 @@ class IconsGrid extends StatelessWidget {
           padding: const EdgeInsets.all(15),
           child: Draggable<String>(
             data: iconPath,
-            feedback: Container(
-              height: 10.h,
-              width: 10.w,
-              color: Colors.blue.withOpacity(0.5),
-              child: Center(
-                child: Text(
-                  '${index + 1}',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 20.sp,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-              ),
-            ),
-            childWhenDragging: Opacity(
-              opacity: 0.5,
-              child: Container(
-                height: 1.h,
-                width: 1.w,
-                color: Colors.grey,
-                child: Center(
-                  child: Text(
-                    '${index + 1}',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 16.sp,
-                    ),
-                  ),
-                ),
-              ),
-            ),
-            child: Container(
-              height: 1.h,
-              width: 1.w,
-              color: Colors.grey,
-              child: Center(
-                child: Text(
-                  '${index + 1}',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 16.sp,
-                  ),
-                ),
-              ),
-            ),
+            feedback: SvgPicture.asset(iconPath),
+            childWhenDragging: SvgPicture.asset(iconPath),
+            child: SvgPicture.asset(iconPath),
           ),
         );
       },
-    );
-  }
-}
-
-class WindowDisplay extends StatelessWidget {
-  const WindowDisplay({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const Row(
-      mainAxisAlignment: MainAxisAlignment.center,
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: [
-        MeasurementColumn(),
-        WindowGraphic(),
-      ],
     );
   }
 }
@@ -177,8 +125,8 @@ class _WindowGraphicState extends State<WindowGraphic> {
             double iconHeight = 150 / rows;
 
             return Container(
-              height: 150,
-              width: 250,
+              height: 300,
+              width: 300,
               decoration: BoxDecoration(
                 color: Colors.grey,
                 borderRadius: BorderRadius.circular(15),
