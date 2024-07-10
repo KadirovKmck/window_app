@@ -16,7 +16,7 @@ class App extends StatelessWidget {
       builder: (context, orientation, screenType) {
         return const MaterialApp(
           debugShowCheckedModeBanner: false,
-          home: WindowView(),
+          home: HomeView(),
         );
       },
     );
